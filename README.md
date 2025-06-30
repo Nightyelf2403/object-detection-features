@@ -44,7 +44,7 @@ We used `Image.png` as the **master image**, and matched it with `Test01.png` an
 #### 🔹 FAST + BRIEF Matches
 | Test Image 1 (`Test01.png`) | Test Image 2 (`Test02.png`) |
 |-----------------------------|------------------------------|
-| ![fast_brief_bf_match_ch_1](Images/fast_brief_bf_match_ch_1.png)<br>**FAST+BRIEF + BF Matcher** | ![fast_brief_bf_match_ch_2](Images/fast_brief_bf_match_ch_2.png)<br>**FAST+BRIEF + BF Matcher** |
+| ![fast_brief_bf_match_ch_1](Images/fast_brief_bf_match_1.png)<br>**FAST+BRIEF + BF Matcher** | ![fast_brief_bf_match_ch_2](Images/fast_brief_bf_match_2.png)<br>**FAST+BRIEF + BF Matcher** |
 | ![fast_brief_flann_match_1](Images/fast_brief_flann_match_1.png)<br>**FAST+BRIEF + FLANN Matcher** | ![fast_brief_flann_match_2](Imagess/fast_brief_flann_match_2.png)<br>**FAST+BRIEF + FLANN Matcher** |
 
 ---
