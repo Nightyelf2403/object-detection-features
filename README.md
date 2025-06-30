@@ -25,6 +25,32 @@ Each detector was paired with both matchers, resulting in 6 detection pipelines.
 
 ## 📊 Results Summary
 
+### 📸 Feature Matching Results
+
+We used `Image.png` as the **master image**, and matched it with `Test01.png` and `Test02.png` using 3 different feature detectors, each paired with 2 matchers.
+
+#### 🔹 SIFT Matches
+| Test Image 1 (`Test01.png`) | Test Image 2 (`Test02.png`) |
+|-----------------------------|------------------------------|
+| ![sift_bf_match_1](images/sift_bf_match_1.jpg)<br>**SIFT + BF Matcher** | ![sift_bf_match_2](images/sift_bf_match_2.jpg)<br>**SIFT + BF Matcher** |
+| ![sift_flann_match_1](images/sift_flann_match_1.jpg)<br>**SIFT + FLANN Matcher** | ![sift_flann_match_2](images/sift_flann_match_2.jpg)<br>**SIFT + FLANN Matcher** |
+
+#### 🔹 ORB Matches
+| Test Image 1 (`Test01.png`) | Test Image 2 (`Test02.png`) |
+|-----------------------------|------------------------------|
+| ![orb_bf_match_1](images/orb_bf_match_1.jpg)<br>**ORB + BF Matcher** | ![orb_bf_match_2](images/orb_bf_match_2.jpg)<br>**ORB + BF Matcher** |
+| ![orb_flann_match_1](images/orb_flann_match_1.jpg)<br>**ORB + FLANN Matcher** | ![orb_flann_match_2](images/orb_flann_match_2.jpg)<br>**ORB + FLANN Matcher** |
+
+#### 🔹 FAST + BRIEF Matches
+| Test Image 1 (`Test01.png`) | Test Image 2 (`Test02.png`) |
+|-----------------------------|------------------------------|
+| ![fast_brief_bf_match_ch_1](images/fast_brief_bf_match_ch_1.png)<br>**FAST+BRIEF + BF Matcher** | ![fast_brief_bf_match_ch_2](images/fast_brief_bf_match_ch_2.png)<br>**FAST+BRIEF + BF Matcher** |
+| ![fast_brief_flann_match_1](images/fast_brief_flann_match_1.png)<br>**FAST+BRIEF + FLANN Matcher** | ![fast_brief_flann_match_2](imagess/fast_brief_flann_match_2.png)<br>**FAST+BRIEF + FLANN Matcher** |
+
+---
+
+
+
 ### ✅ What Worked Well:
 - **SIFT** offered the most accurate and robust detection, especially under scaling and rotation.
 - **ORB** was significantly faster and effective with proper matcher setup.
